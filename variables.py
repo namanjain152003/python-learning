@@ -18,3 +18,5 @@ this is multi line comment
 
 #arithmetic operator(+,-,*,/,**,%)
 #relational operator(<,<=,>,>=,==,!=)
+#assignment operator(=,+=,-=,*=,/=)
+#logical operator(not , and , or)
