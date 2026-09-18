@@ -17,3 +17,4 @@ this is multi line comment
 '''
 
 #arithmetic operator(+,-,*,/,**,%)
+#relational operator(<,<=,>,>=,==,!=)
