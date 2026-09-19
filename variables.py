@@ -45,3 +45,18 @@ or
 # e.g value=float(10)
 #     print(value, type(value))
 
+a=float(input("enter value of a"))
+#print(a)
+#input always take in string form
+
+b=int(input("enter value of b"))
+print(a+b)
+
+#average of 2 numbers
+p=float(input("enter 1st number: "))
+q=float(input("enter 2nd number: "))
+avg=(p+q)/2
+print(avg)
+
+
+
