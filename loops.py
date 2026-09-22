@@ -26,3 +26,13 @@ while (counter<=5):
         print(i)
         i+=1
     print("out of loop")
+    
+    
+    # for loops
+    
+    word="hello"
+    for var in word:
+        print(var)
+        
+    for i in range(5):  #this will work for 0 to n-1  and in-> is a membership operator
+        print(i)
