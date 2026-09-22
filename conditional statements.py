@@ -30,7 +30,7 @@ match color:
     case "Red":
         print("stop")
     case _:
-        print("Wrong color")   
+        print("Wrong color!")   
     
     
     
