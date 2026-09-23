@@ -36,3 +36,12 @@ while (counter<=5):
         
     for i in range(5):  #this will work for 0 to n-1  and in-> is a membership operator
         print(i)
+        
+
+# sum of n natural numbers
+n=int(input("Enter the number"))
+sum=0
+for i in range(1,n+1):
+    sum+=i
+print("sum of natural numbers",sum)
+            
