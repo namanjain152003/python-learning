@@ -17,3 +17,12 @@ print(ans)
 #another method
 
 print(sum(4,5))
+
+
+#default parameter
+
+def add(a,b=1):   # important point -> the non default values always come first and then default value
+    p=a+b
+    return p
+
+print(add(5))
