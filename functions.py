@@ -26,3 +26,7 @@ def add(a,b=1):   # important point -> the non default values always come first 
     return p
 
 print(add(5))
+
+#Lambda functions are short, one-liner functions that are used to perform simple tasks
+square = lambda x: x * x
+print(square(5))
