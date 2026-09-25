@@ -28,3 +28,24 @@ print(word3[2:]) # this will print  from index 2 to last of the string
 # n -> -5  a -> -4  m-> -3  a-> -2  n -> -1
 
 print(word3[-4:-2])  # here also -2 is not included 
+
+
+# String Formatting:
+
+# format() -> it is the old method
+a=10
+b=5
+sum=a+b
+print("sum is {}".format(sum)) 
+print("sum of {} and {} is {}".format(a,b,sum))
+
+# by index based
+print("sum of {0} and {1} is {2}".format(a,b,sum))  # here a is at 0 , b at 1 and sum at 2
+
+# value based
+print("sum of {a} and {b}".format(a=10,b=5))
+print("sum of {a} and {b} is {sum}".format(a=a,b=b,sum=a+b))
+
+
+# f strings are the new method 
+print(f"sum of {a} and {b} is {sum}")
