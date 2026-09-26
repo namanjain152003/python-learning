@@ -31,3 +31,17 @@ print(marks)
 #4. l.reverse
 marks.reverse()
 print(marks)
+
+
+# FOR loop in list
+
+nums=[1,5,6,10,15]
+
+# we want to find the 10 in the list and print its index
+idx=0
+x=10
+for val in nums:
+    if(x==val):
+        print(f"x found at idx = {idx}")
+        break
+    idx+=1
