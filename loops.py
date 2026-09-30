@@ -34,7 +34,7 @@ while (counter<=5):
     for var in word:
         print(var)
         
-    for i in range(5):  #this will work for 0 to n-1  and in-> is a membership operator
+    for i in range(5):  #this will work for 0 to n-1  and in-> is a membership operator  (start,stop,step)
         print(i)
         
 
