@@ -36,3 +36,41 @@ animal2=Animal("meow")
 print(animal1.sound)
 print(animal2.sound)
 print(animal2.sound,animal1.sound)
+
+# types of Constructors
+# 1. Default Constructors - A constructor with no parameters except .
+# 2. Parameterized Constructors - Takes parameters to initialize values uniquely for each object.
+
+# Note - Python doesn’t support constructor overloading directly (like Java/C++) i.e. having multiple constructors in the same class. 
+# Whichever is written last is executed.
+
+class City:
+    def __init__(self):
+        print("constructor called...")
+        
+    def __init__(self,name):
+        self.name=name
+        
+city1=City("delhi")
+print(city1.name) # here default constructor will be replaced by parameterised constructor 
+
+# Types of Attributes
+
+# 1. Class Attributes
+# • Belong to the class itself, shared by all objects.
+# • Defined outside any method in the class.
+class Student:
+    college = "ABC college" # class attribute
+stu1 = Student ()
+print(stu1.college)
+print(Student.college) # class attribute can also be accessed with class name
+
+
+# Instance Attributes
+# • Belong individually to each object
+class Student:
+    def __init__ (self, name, gpa): # instance attributes
+        self.name = name
+        self.gpa = gpa
+stu1 = Student("Rahul", 8.7)
+print(stu1. name, stu1.gpa)
