@@ -74,3 +74,20 @@ class Student:
         self.gpa = gpa
 stu1 = Student("Rahul", 8.7)
 print(stu1. name, stu1.gpa)
+
+
+# types of methods
+
+# 1. instance method
+# first parameter is self
+# access the class and instance attributes
+
+# 2. class method
+# first parameter is cls
+# access the class attributes
+# decorator -> @classmethod
+
+# 3. static method
+# no compulsory parameter
+# dont access the class and instance attributes
+# decorator -> @staticmethod
