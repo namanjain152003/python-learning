@@ -91,3 +91,42 @@ print(stu1. name, stu1.gpa)
 # no compulsory parameter
 # dont access the class and instance attributes
 # decorator -> @staticmethod
+
+
+# OOPS PILLARS
+
+# 1. ENCAPSULATION
+# Encapsulation is the bundling of data (variables) and methods (functions) that
+# operate on that data into a single unit (a class), along with controlling access to that
+# data.
+
+# public data -> normal thats how we create.
+
+# protected data -> def init (self):
+# self._age = 20 # protected variable
+
+# private data -> def init (self, balance):
+# self. balance = balance # private variable
+
+# WE can acess the private and protected data outside the class in python ( in notes)
+# getter and setter (in notes)
+
+# 2. INHERITANCE 
+# Inheritance is where one class (child) acquires the properties and behaviors (variables
+# + methods) of another class (parent).
+
+# types of inheritance
+# 1.single
+# 2. multilevel
+# 3. multiple
+# all codes in notes
+
+# 3. ABSTRACTION
+# Abstraction is hiding unnecessary implementation details and showing only the
+# essential features to the user
+# code in the notes
+
+# 4. POLYMORPHISM
+# Polymorphism is the ability of a single function, operator, or object to behave
+# differently based on the context. (“poly” = many, “morph” = forms)
+# function overriding and duck typing
