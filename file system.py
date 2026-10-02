@@ -17,3 +17,10 @@
 # with keyword
 # delete
 
+# EXCEPTION HANDLING
+# Try , except , else, finally
+
+# LIST COMPREHENSIONS
+
+# JSON MODULE
+#loads , dumps, load, dump
